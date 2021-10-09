@@ -1,6 +1,6 @@
 ﻿using DataStructure.Common;
 
-namespace DataStructure
+namespace DataStructure.Stack
 {
     public class LinkedStack<T>
     {
