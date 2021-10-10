@@ -1,4 +1,5 @@
 ﻿using DataStructure.Common;
+using System;
 
 namespace DataStructure.Stack
 {
@@ -19,22 +20,24 @@ namespace DataStructure.Stack
             Count++;
         }
 
-        public T? Pop()
+        public T Pop()
         {
-            if(IsEmpty())
-            {
-                return default;
-            }
+            if (IsEmpty())
+                throw new InvalidOperationException();
 
             var aux = _top!.Value;
             _top = _top.Next;
             Count--;
+
             return aux;
         }
 
-        public T? Peek()
+        public T Peek()
         {
-            return IsEmpty() ? default : _top!.Value;
+            if (IsEmpty())
+                throw new InvalidOperationException();
+
+            return _top!.Value;
         }
 
         public void Clear()
