@@ -1,7 +1,7 @@
 ﻿using DataStructure.Common;
 using System;
 
-namespace DataStructure.Stack
+namespace DataStructure.Stacks
 {
     public class LinkedStack<T>
     {

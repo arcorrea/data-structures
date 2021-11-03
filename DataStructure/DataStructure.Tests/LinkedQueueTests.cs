@@ -1,4 +1,4 @@
-﻿using DataStructure.Queue;
+﻿using DataStructure.Queues;
 using System;
 using Xunit;
 
