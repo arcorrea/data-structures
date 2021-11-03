@@ -1,7 +1,7 @@
 ﻿using DataStructure.Common;
 using System;
 
-namespace DataStructure.Queue
+namespace DataStructure.Queues
 {
     public class LinkedQueue<T>
     {

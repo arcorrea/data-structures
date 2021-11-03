@@ -1,4 +1,4 @@
-﻿using DataStructure.Stack;
+﻿using DataStructure.Stacks;
 using System;
 using Xunit;
 
